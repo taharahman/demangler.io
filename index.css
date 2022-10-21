@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+body {
+    background-color: #444444;
+}
+
+textarea {
+    width: 40vw;
+    height: 85vh;
+    resize: none;
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    opacity: 75%;
+    font-size: 20px;
+}
+
+.border {
+    height: 85vh;
+    border: 3px solid white;
+}
+
+.content {
+    width: 85vw;
+    height: 85vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textboxes {
+    display: flex;
+    justify-content: space-between;
+}
